@@ -1,0 +1,24 @@
+.background1 {
+    height: calc(100vh - 100px);
+
+    .circle {
+        position: relative;
+        height: 110%;
+        width: 50%;
+        top: -40%;
+        right: -70%;
+    }
+
+    .foot-ball {
+        position: absolute;
+        top: 180px;
+        right: 250px;
+    }
+    .circle2 {
+        position: relative;
+        height: 110%;
+        width: 50%;
+        top: -165%;
+        left: -30%;
+    }
+}
