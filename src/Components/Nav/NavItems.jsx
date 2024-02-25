@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function NavItems(props) {
   const dynamicClassName = props.css
-    ? "sm:bg-gradient-to-t from-rose-500 to-rose-300 rounded-[5px] text-white"
+    ? "sm:bg-gradient-to-t from-rose-800 to-rose-500 rounded-[5px] text-white font-Poppins"
     : "";
 
   return (

@@ -4,7 +4,8 @@ import { motion } from "framer-motion";
 
 function BackGround2() {
   return (
-    <div className="absolute z-30 top-[65%] -left-[5%] sm:top-[65%] sm:left-[30%] flex">
+    
+    <div className="flex absolute z-20 top-[70%] sm:top-[60%] w-full justify-center">
       <motion.img
         initial={{
           x: -30,
@@ -22,7 +23,7 @@ function BackGround2() {
           repeatType: "mirror",
         }}
         src="3.png"
-        className="w-36 h-36"
+        className="w-36 h-36 md:w-64 md:h-64"
         alt=""
       />
       <motion.img
@@ -42,12 +43,13 @@ function BackGround2() {
           repeatType: "mirror",
         }}
         src="1.png"
-        className="w-36 h-36"
+        className="w-36 h-36 md:w-64 md:h-64"
         alt=""
       />
-      <motion.img  initial={{
+      <motion.img
+        initial={{
           y: 40,
-          x:40
+          x: 40,
         }}
         animate={{
           y: 0,
@@ -61,7 +63,11 @@ function BackGround2() {
           damping: 0,
           repeat: Infinity,
           repeatType: "mirror",
-        }} src="5.png" className="w-44 h-44" alt="" />
+        }}
+        src="5.png"
+        className="w-36 h-36 md:w-64 md:h-64 hidden sm:flex"
+        alt=""
+      />
     </div>
   );
 }

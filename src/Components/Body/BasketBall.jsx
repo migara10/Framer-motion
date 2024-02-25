@@ -18,27 +18,27 @@ function BasketBall() {
     case isSmallScreen:
       imageSize = { width: "200px", height: "200px" };
       initialProperties = { x: 200, y: 0, ...imageSize };
-      animateProperties = { y: 400, ...imageSize };
+      animateProperties = { y: "30vh", ...imageSize };
       break;
     case isMediumScreen:
       imageSize = { width: "250px", height: "250px" };
       initialProperties = { x: 200, y: 0, ...imageSize };
-      animateProperties = { y: 500, ...imageSize }; // mini
+      animateProperties = { y: "30vh", ...imageSize }; // mini
       break;
     case isLargeScreen:
       imageSize = { width: "300px", height: "300px" };
       initialProperties = { x: 200, y: 0, ...imageSize };
-      animateProperties = { y: 600, ...imageSize }; // air
+      animateProperties = {y: "30vh", ...imageSize }; // air
       break;
     case isLargeScreen2:
       imageSize = { width: "300px", height: "300px" };
       initialProperties = { x: 200, y: 0, ...imageSize };
-      animateProperties = { y: 850, ...imageSize }; // pro
+      animateProperties = { y: "30vh", ...imageSize }; // pro
       break;
     case isExtraLargeScreen:
       imageSize = { width: "300px", height: "300px" };
       initialProperties = { x: 100, y: 0, ...imageSize };
-      animateProperties = { y: 320, ...imageSize };
+      animateProperties = { y: "30vh", ...imageSize };
       break;
     case isDoubleExtraLargeScreen:
       imageSize = { width: "300px", height: "300px" };
@@ -56,9 +56,9 @@ function BasketBall() {
       animateProperties = { y: 300, ...imageSize };
       break;
     default:
-      imageSize = { width: "300px", height: "300px" };
+      imageSize = { width: "900px", height: "900px" };
       initialProperties = { x: 0, y: 0, ...imageSize };
-      animateProperties = { y: 350, ...imageSize };
+      animateProperties = { y: "30vh", ...imageSize };
   }
 
   return (

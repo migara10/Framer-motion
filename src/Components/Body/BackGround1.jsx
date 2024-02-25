@@ -9,10 +9,7 @@ import BasketBall from "./BasketBall";
 function BackGround1() {
   return (
     <div className="background1">
-      <p className="absolute hidden top-[30%] left-[60%] z-30 text-[3em] text-rose-500 font-Satisfy">
-        Northern Wolf Sports
-      </p>
-      <div className="absolute top-[55%] sm:top-[50%] md:top-[30%] right-[20%] sm:right-[5%] md:right-[15%] z-30 text-[3em] review">
+      <div className="review absolute z-30 top-[60%] sm:top-[25%] w-full justify-start sm:justify-end flex pl-10 sm:pr-10">
         <Review />
       </div>
       <BasketBall />
@@ -61,7 +58,7 @@ function BackGround1() {
           ease: "easeInOut",
           delay: 0.9,
         }}
-        className="bg-gray-800  h-[170vh] w-[65vw] z-10 absolute -left-[26vw] sm:-left-[10vw] -top-[50vh]"
+        className="bg-gray-800  h-[170vh] w-[65vw] z-10 absolute -left-[26vw] sm:-left-[17vw] -top-[50vh]"
       ></motion.div>
       <motion.div
         initial={{
@@ -76,7 +73,7 @@ function BackGround1() {
           ease: "easeInOut",
           delay: 0.9,
         }}
-        className="bg-gradient-to-r from-rose-400 to-rose-700  h-[170vh] w-[60vw] z-10 absolute -left-[26vw] sm:-left-[10vw] -top-[50vh] "
+        className="bg-gradient-to-r from-stone-800 to-rose-800  h-[170vh] w-[60vw] z-10 absolute -left-[26vw] sm:-left-[17vw] -top-[50vh] "
       ></motion.div>
     </div>
   );
