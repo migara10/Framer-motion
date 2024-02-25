@@ -23,7 +23,7 @@ function BackGround2() {
           repeatType: "mirror",
         }}
         src="3.png"
-        className="w-36 h-36 md:w-64 md:h-64"
+        className="w-36 h-36 md:w-52 md:h-52"
         alt=""
       />
       <motion.img
@@ -43,7 +43,7 @@ function BackGround2() {
           repeatType: "mirror",
         }}
         src="1.png"
-        className="w-36 h-36 md:w-64 md:h-64"
+        className="w-36 h-36 md:w-52 md:h-52"
         alt=""
       />
       <motion.img
@@ -65,7 +65,7 @@ function BackGround2() {
           repeatType: "mirror",
         }}
         src="5.png"
-        className="w-36 h-36 md:w-64 md:h-64 hidden sm:flex"
+        className="w-36 h-36 md:w-52 md:h-52 hidden sm:flex"
         alt=""
       />
     </div>
