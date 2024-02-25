@@ -17,7 +17,7 @@ function MainTitle() {
       }}
       className="absolute z-20 top-[25%] left-[5%] sm:top-[25%] sm:left-[15%]"
     >
-      <div className="heading font-Poppins text-[1em] sm:text-[2em] md:text-[3em] lg:text-[3.5em] 2xl:text-[5em] font-semibold text-orange-500">
+      <div className="heading font-Poppins text-[1em] sm:text-[2em] md:text-[3 lg:text-[3.5em] 2xl:text-[5em] font-semibold text-orange-500">
         YOUR GAME, <br />
       </div>
       <p className="text-white heading font-Poppins text-[1em] sm:text-[2em] md:text-[3em] lg:text-[5em] 2xl:text-[6em] font-semibold">

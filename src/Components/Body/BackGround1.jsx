@@ -31,7 +31,7 @@ function BackGround1() {
           ease: "easeInOut",
           delay: 0.2,
         }}
-        className="bg-gradient-to-b from-amber-200 to-amber-500 h-screen z-0 absolute left-0 top-0"
+        className="bg-gradient-to-b from-amber-400 to-amber-800 h-screen z-0 absolute left-0 top-0"
       ></motion.div>
 
       <motion.div

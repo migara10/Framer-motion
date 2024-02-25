@@ -28,7 +28,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='h-screen w-full bg-gradient-to-b from-amber-200 to-amber-500 overflow-hidden relative'>
+    <div className='h-screen w-full bg-gradient-to-b from-amber-400 to-amber-800 overflow-hidden relative'>
       <NavBar />
       <RouterProvider router={router}></RouterProvider>
       <Footer />

@@ -15,7 +15,7 @@ function NavItems(props) {
         whileHover={{
           rotate: 10,
         }}
-        className={`py-1 px-2 text-gray-600 font-Poppins ${dynamicClassName} flex justify-center`}
+        className={`py-1 px-2 text-white text-[1.2em] font-Poppins ${dynamicClassName} flex justify-center`}
       >
         {props.data}
       </motion.div>
